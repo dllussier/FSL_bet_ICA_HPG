@@ -12,6 +12,6 @@ pwd; hostname; date
 
 module load fsl/5.0.11
 
-fsl5.0-bet $i/T1/T1_reorient.nii $i/T1/T1_brain.nii -f .1 -B -R
+bet T1/T1_reorient.nii T1/T1_brain.nii -f .1 -B -R
 
 date
